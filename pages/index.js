@@ -16,9 +16,10 @@ export default function Home() {
   return (
     <>
       {/* This is giving me an error but I'm not seeing the Next.js error overlay. */}
+      {/* Comment this out.... */}
       <Inner />
 
-      {/* This fixes the bug, so I'm expecting to see the "Add a Suspense boundary" message above. */}
+      {/* And uncomment this. This fixes the bug, so I'm expecting to see the "Add a Suspense boundary" message above. */}
       {/* <Suspense fallback={<p>loading</p>}>
         <Inner />
       </Suspense> */}
